@@ -1,0 +1,160 @@
+:root{
+    --background_color:rgb(215, 224, 221);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; 
+    overflow: hidden; 
+    font-family: Arial, sans-serif; 
+    background-color: var(--background_color);
+}
+
+.logoDev {
+    display:grid;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute; 
+    top: 20px;
+    left: 20px;
+}
+
+#logo {
+    width: 100px; 
+    height: auto;
+}
+
+.body {
+    height: 100vh; 
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; 
+    grid-template-rows: auto auto auto; 
+    align-content: center; 
+    align-items: center;
+    justify-items: center; 
+    gap: 15px; 
+    padding: 0 20px;
+}
+
+/* Positioning specific elements in the Grid */
+
+/* Student Picture: Left Column, spanning 3 rows vertically */
+#student {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    max-width: 80%; 
+    max-height: 60vh;
+    justify-self: start; /* Push to far left */
+    margin-left: 0px;
+}
+
+/* Lecturer Picture: Right Column, spanning 3 rows vertically */
+#lecturer {
+    grid-column: 3;
+    grid-row: 1 / span 3;
+    max-width: 80%;
+    max-height: 60vh;
+    justify-self: end; /* Push to far right */
+}
+
+/* Center Text */
+#option {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 100px;
+    margin-top: 0px;
+}
+#form{
+    display: grid;
+    align-items: center;
+    align-content: center; 
+    justify-items: center;
+}
+/* Buttons: Stacked in the middle column */
+/* Base Style (Gradient Border) */
+.choose {
+    margin:20px;
+    grid-column: 2;
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(15, 3, 173); 
+
+    /* Transparent border allows the gradient to show through */
+    border: 2px solid transparent;
+    border-radius: 5px;
+
+    /* Layer 1: White background (inside)
+       Layer 2: Gradient background (border area) */
+    background: 
+        linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(to right, rgb(15, 3, 173), blue, rgb(2, 68, 201), rgb(5, 93, 182)) border-box;
+    
+    transition: color 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Style (Full Gradient Fill) */
+.choose:hover {
+    /* Remove white layer, show only gradient */
+    background: 
+        linear-gradient(to right, rgb(15, 3, 173), blue, rgb(2, 68, 201), rgb(5, 93, 182)) border-box;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 255, 0.3);
+}
+
+/* Click Style (Simple Blue) */
+.choose:active {
+    /* 'background' shorthand overrides the gradients with a single color */
+    background: blue; 
+    border-color: blue; /* Ensure the border area matches */
+    color: white;
+    
+    /* Optional: Remove shadow to make it feel "pressed" */
+    box-shadow: none; 
+    transform: translateY(2px); /* Moves button down slightly for a click effect */
+}
+
+/* Specific row assignment for buttons to ensure order */
+.choose:nth-of-type(1) { grid-row: 2; } /* First button (Student) */
+.choose:nth-of-type(2) { grid-row: 3; } /* Second button (Lecturer) */
+
+
+/* 4. Responsive Design (Phone) */
+@media (max-width: 768px) {
+    
+    /* Hide the side images */
+    #student, #lecturer {
+        display: none;
+    }
+
+    /* Change Layout to Single Column */
+    .body {
+        grid-template-columns: 1fr; /* Single column */
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+    #option{
+        display:none;
+    }
+    
+    
+    /* Slightly bigger logo on mobile if needed, or keep same */
+    #logo {
+        width: 50px;
+    }
+}
+@media (min-width: 769px) {
+    
+}

@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Prof Mohammad Mobarak Hossain",
+        "courses": ["CSE 3103"]
+    },
+    {
+        "name": "Faisal Imran",
+        "courses": ["CSE 1204 - I", "CSE 1203", "CSE 1204 - II"]
+    },
+    {
+        "name": "Md. Abdullah Bin Masud",
+        "courses": ["MAT 1101", "MAT 2208 - I", "MAT 2208 - II", "MAT 2207"]
+    },
+    {
+        "name": "Md. Tahfimuzzaman",
+        "courses": ["CSE 3102 - I"]
+    },
+    {
+        "name": "Sharmina Rahman",
+        "courses": ["EEE 2206 - I", "EEE 2103", "EEE 2205", "EEE 2104 - I", "EEE 2206 - II", "EEE 2104 - II"]
+    },
+    {
+        "name": "Sazzad Hossain Bhuiyan",
+        "courses": ["CSE 2201", "CSE 1101"]
+    },
+    {
+        "name": "Ahamad Nokib Mozumder",
+        "courses": ["CSE 2100 - II", "CSE 1101", "CSE 1102 - I", "CSE 1102 - II", "CSE 2100 - I"]
+    },
+    {
+        "name": "Md Tousif Hasan Lavlu",
+        "courses": ["CSE 1102 - I", "CSE 1102 - II", "CSE 1202 - I", "CSE 4252", "CSE 1201", "CSE 4251"]
+    },
+    {
+        "name": "Sakhor Das Opi",
+        "courses": ["CSE 1210 - I", "CSE 1210 - II", "CSE 2110", "CSE 2202 - I", "CSE 2202 - II"]
+    },
+    {
+        "name": "Md. Naim",
+        "courses": ["PHY 1001", "EEE 2104", "PHY 1002 - II", "PHY 1002 - I", "EEE 2104-II", "IoT Com"]
+    },
+    {
+        "name": "Abdur Rab Dhruba",
+        "courses": ["CSE 2103", "CSE 4233", "CSE 3311"]
+    },
+    {
+        "name": "Ekhfa Hossain",
+        "courses": ["CSE 3314 - I", "CSE 3314 - II", "CSE 3297", "CSE 2102"]
+    },
+    {
+        "name": "Shafayatun Nur",
+        "courses": ["CSE 3209", "CSE 2103", "CSE 2209", "CSE 3107", "CSE 1100"]
+    },
+    {
+        "name": "Saeema Rahim",
+        "courses": ["PHY 1002 - I", "PHY 1002 - II", "PHY 1001", "CSE 3104 - I", "CSE 3104 - II"]
+    },
+    {
+        "name": "Md. Fazle Hasan Mihad",
+        "courses": ["CSE 3316", "CSE 3297", "CSE 3202 - I", "CSE 1202 - II"]
+    },
+    {
+        "name": "Tauhid",
+        "courses": ["CSE 3101", "CSE 3105", "CSE 3207", "CSE 3315", "CSE 3106 - I", "CSE 3106 - II"]
+    },
+    {
+        "name": "Shad Al Kaiser",
+        "courses": ["CSE 2207", "CSE 2102", "CSE 3102 - II", "Soft Com", "CSE 4131 - I", "CSE 3210"]
+    },
+    {
+        "name": "Tahsin Alam",
+        "courses": ["CSE 1102 - I", "CSE 2101", "CSE 3204 - II", "CSE 1100", "CSE 3314 - II"]
+    },
+    {
+        "name": "Jannatul Ferdos Jui",
+        "courses": ["CSE 2101", "CSE 3313", "CSE 2102 - I", "CSE 2102 - II", "CSE 3204"]
+    },
+    {
+        "name": "Md Mehedi Hasan",
+        "courses": ["CSE 3100 - I", "CSE 2208 - I", "CSE 4115", "CSE 2208 - II", "CSE 3100 - II", "CSE 4116 - I", "CSE 4116 - II", "ML Com"]
+    },
+    {
+        "name": "Shamima Dilshad Salshabil",
+        "courses": ["CSE 4112", "CSE 2110 - II", "CSE 2110 - I"]
+    },
+    {
+        "name": "Farie Afrin Niha",
+        "courses": ["CSE 2100 - I", "CSE 2100 - II", "CSE 3316"]
+    },
+    {
+        "name": "Easrat Jahan",
+        "courses": ["ICT 4106", "CSE 3200 - I", "CSE 1100", "CSE 2100 - II"]
+    },
+    {
+        "name": "Md. Delwar Shahadat Deepu",
+        "courses": ["CSE 3314 - I", "CSE 2110", "STA 3001", "CSE 3314 - II", "CSE 2339", "CSE 3313", "ML Com"]
+    },
+    {
+        "name": "Prof. Dr. Rabiul Islam",
+        "courses": ["ICT 4308", "CSE 3205", "CSE 3206"]
+    },
+    {
+        "name": "Habibur Rahman",
+        "courses": ["MAT 2105", "MAT 1203"]
+    },
+    {
+        "name": "Dr. Md. Mahbub Hosen",
+        "courses": ["BDS 1001"]
+    },
+    {
+        "name": "Shiraj Uddhullah",
+        "courses": ["BCC 2101"]
+    },
+    {
+        "name": "Abdullah Sidique",
+        "courses": ["ECA 1101"]
+    },
+    {
+        "name": "Ujjal Yaman Chowdhury",
+        "courses": ["IOM 3111", "MGT 3311", "BUS 3309"]
+    }
+]

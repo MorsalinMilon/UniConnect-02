@@ -1,0 +1,223 @@
+:root {
+    --primary-color: #0244c9;
+    --primary-gradient: linear-gradient(135deg, #0244c9, #0f03ad);
+    --bg-color: #f4f7fa;
+    --white: #ffffff;
+    --text-dark: #2c3e50;
+    --text-light: #7f8c8d;
+    --border-color: #dce1e6;
+    --error-color: #e74c3c;
+    --success-color: #27ae60;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    height: 100vh; /* Strict height constraint */
+    width: 100vw;
+    overflow: hidden; /* Prevents scrolling on desktop */
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Navbar --- */
+.navbar {
+    height: 70px; /* Fixed height */
+    background: var(--white);
+    padding: 0 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    flex-shrink: 0; /* Prevents navbar from shrinking */
+}
+
+.brand { display: flex; align-items: center; gap: 12px; }
+#logo { height: 40px; width: auto; }
+.brand-text {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.role-badge {
+    background: #eef2f7;
+    color: var(--primary-color);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* --- Main Layout --- */
+.main-container {
+    flex: 1; /* Takes remaining height */
+    display: flex;
+    align-items: center; /* Center Vertically */
+    justify-content: center; /* Center Horizontally */
+    padding: 0 4%; /* Horizontal breathing room */
+    gap: 5%; /* Space between image and form */
+    height: calc(100vh - 70px); /* Exact remaining height */
+}
+
+/* --- Image Section --- */
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Push image towards form */
+    height: 100%;
+    align-items: center;
+}
+
+#hero-image {
+    max-width: 100%;
+    max-height: 80%; /* Image will never force scroll */
+    object-fit: contain;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1));
+}
+
+/* --- Form Section --- */
+.form-section {
+    flex: 1;
+    max-width: 650px; /* Wide enough for 2 columns */
+    display: flex;
+    justify-content: flex-start;
+}
+
+#registerForm {
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* Adjust internal spacing dynamically */
+    justify-content: center; 
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-header h2 {
+    color: var(--text-dark);
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.form-header p {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+/* Grid Layout: 2 Columns to save height */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-left: 2px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s;
+    background: #fdfdfd;
+}
+
+.input-group input:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(2, 68, 201, 0.1);
+}
+
+.error-message {
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 10px;
+    min-height: 20px; /* Prevents jumping */
+    color: var(--error-color);
+}
+
+#submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    background: var(--primary-gradient);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#submit-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.95;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.footer-text a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* --- Mobile Responsiveness --- */
+/* On mobile, we MUST allow scroll because 100vh is too small for a keyboard + form */
+@media (max-width: 900px) {
+    body {
+        overflow-y: auto; /* Enable scroll on mobile */
+        height: auto;
+    }
+
+    .main-container {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .image-section { display: none; } /* Hide image to focus on form */
+    
+    .form-section { max-width: 100%; }
+
+    .form-grid {
+        grid-template-columns: 1fr; /* Stack inputs on phone */
+    }
+}

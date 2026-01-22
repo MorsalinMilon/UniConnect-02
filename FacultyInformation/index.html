@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Information</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../pictures/UniConnect_favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header id="nav">
+        <div id="logoBox">
+            <img id="logo" src="../pictures/UniConnect_logo.png" alt="UniConnect_Logo">
+        </div>
+        <div id="navBox">
+            <a class="option" href="#" data-target="dashboard">Dashboard</a>
+            <a class="option" href="#" data-target="assignment">Assignment & Announcement</a>
+            <a class="option" href="#" data-target="payment">Payment & Due</a>
+            <a class="option" href="#" data-target="registered">Registered Courses</a>
+            <a class="option" href="#" data-target="attendence">Attendence</a>
+            <a class="option" href="#" data-target="lecture">Lecture Note</a>
+            <a class="option" href="#" data-target="result">Result</a>
+            
+            <a id="onboard" href="#" data-target="faculty">Faculty Information</a>
+            
+            <a class="option" href="#" data-target="admit">Admit Card</a>
+            <a class="option" href="#" data-target="class">Class Details</a>
+        </div>
+    </header>
+    
+    <div class="facultyTitle">Our Faculty Members</div>
+    
+    <div id="search-container">
+        <input type="text" id="searchInput" placeholder="Search by Name or Initial (e.g., MOH)...">
+    </div>
+    
+    <div id="faculty-container">
+        <p style="text-align: center; width: 100%;">Loading directory...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

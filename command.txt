@@ -1,0 +1,1753 @@
+I am giving you 3 json file of information.....
+
+json file consisting student data titled: "studentInfo.json"
+
+"
+
+{
+
+"242071046": {
+
+"name": "Israt Jahan Nishat",
+
+"code": "7270",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071047": {
+
+"name": "Nusrat Jahan Ayshi",
+
+"code": "1860",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071048": {
+
+"name": "Habiba Akter Khusbu",
+
+"code": "5390",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071049": {
+
+"name": "Jannatul Ferdous Riya",
+
+"code": "5191",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071052": {
+
+"name": "Md. Safone Hossain",
+
+"code": "5734",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071053": {
+
+"name": "Ishrat Jahan Tuba",
+
+"code": "6265",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071054": {
+
+"name": "Ariful Islam Nayon",
+
+"code": "1466",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071055": {
+
+"name": "Md. Shahriar Hossen",
+
+"code": "4426",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071057": {
+
+"name": "Md. Ahosanul Kabir Adnan",
+
+"code": "5578",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071059": {
+
+"name": "Lamia Akter Priyanka",
+
+"code": "8322",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071060": {
+
+"name": "Lavia Akter Priya",
+
+"code": "1685",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071062": {
+
+"name": "Md. Yusuf Ekbal Somrat",
+
+"code": "1769",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071064": {
+
+"name": "Md. Shofique Ahmmed Rian",
+
+"code": "6949",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071065": {
+
+"name": "Mostafa Shahriar Chayon",
+
+"code": "2433",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071066": {
+
+"name": "Rifat Al Arafat",
+
+"code": "5311",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071067": {
+
+"name": "Md Tahmid Abid",
+
+"code": "5051",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071072": {
+
+"name": "Halima Khatun",
+
+"code": "6420",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071074": {
+
+"name": "Jeba Tasnim Hasi",
+
+"code": "1184",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071078": {
+
+"name": "Md. Jubaer Sikder",
+
+"code": "4555",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"242071090": {
+
+"name": "Maharun Nasa Erin",
+
+"code": "3385",
+
+"semester": "3",
+
+"section": "B"
+
+},
+
+"232071077": {
+
+"name": "Morsalin Hossain Milon",
+
+"code": "0000",
+
+"semester": "4",
+
+"section": "A"
+
+}
+
+}
+
+"
+
+json file consisting faculty info titled: "FacultyData.json"
+
+"
+
+[
+
+{
+
+"id": 2,
+
+"name": "Prof Mohammad Mobarak Hossain",
+
+"initial": "MOH",
+
+"designation": "Professor & Dean",
+
+"phone": "",
+
+"email": "mobarak.hossain@smuct.ac.bd",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "",
+
+"officeRoom": "1510",
+
+"courses": ["CSE 3103"]
+
+},
+
+{
+
+"id": 3,
+
+"name": "Faisal Imran",
+
+"initial": "FI",
+
+"designation": "Associate Professor & Head",
+
+"phone": "",
+
+"email": "hod_cse@smuct.ac.bd",
+
+"weekend": "Friday",
+
+"homeOffice": "Saturday",
+
+"consultationHour": "",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 1204 - I", "CSE 1203", "CSE 1204 - II"]
+
+},
+
+{
+
+"id": 4,
+
+"name": "Md. Abdullah Bin Masud",
+
+"initial": "ABM",
+
+"designation": "Assistant Professor",
+
+"phone": "1627939679",
+
+"email": "masud05math@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Wednesday",
+
+"consultationHour": "Sunday: 10.00 AM - 11.30 AM\nThursday: 10.00 AM - 11.30 AM",
+
+"officeRoom": "1502",
+
+"courses": ["MAT 1101", "MAT 2208 - I", "MAT 2208 - II", "MAT 2207"]
+
+},
+
+{
+
+"id": 5,
+
+"name": "Md. Tahfimuzzaman",
+
+"initial": "MTZ",
+
+"designation": "Lecturer & Day Coordinator",
+
+"phone": "1611755951",
+
+"email": "tahfimuzzaman@smuct.ac.bd",
+
+"weekend": "Wednesday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Saturday: 11:30 AM - 01:00 PM\nSunday: 11:30 AM - 1.30 PM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 3102 - I"]
+
+},
+
+{
+
+"id": 6,
+
+"name": "Sazzad Hossain Bhuiyan",
+
+"initial": "SHB",
+
+"designation": "Lecturer",
+
+"phone": "1780728271",
+
+"email": "it_head@smuct.ac.bd",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "",
+
+"officeRoom": "",
+
+"courses": ["CSE 2201", "CSE 1101"]
+
+},
+
+{
+
+"id": 7,
+
+"name": "Sharmina Rahman",
+
+"initial": "SR",
+
+"designation": "Lecturer",
+
+"phone": "1758181282",
+
+"email": "sharminalima@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Saturday: 11:30 AM - 01:00 PM\nSunday: 1:00 PM - 02.30 PM",
+
+"officeRoom": "1502",
+
+"courses": ["EEE 2206 - I", "EEE 2103", "EEE 2205", "EEE 2104 - I", "EEE 2206 - II", "EEE 2104 - II"]
+
+},
+
+{
+
+"id": 8,
+
+"name": "Ahamad Nokib Mozumder",
+
+"initial": "ANM",
+
+"designation": "Lecturer",
+
+"phone": "1670756503",
+
+"email": "nokibsmuct@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Saturday",
+
+"consultationHour": "Sunday: 11:30 AM - 01:00 PM\nThursday: 12:00 AM - 01:10 PM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 2100 - II", "CSE 1101", "CSE 1102 - I", "CSE 1102 - II", "CSE 2100 - I"]
+
+},
+
+{
+
+"id": 9,
+
+"name": "Md Tousif Hasan Lavlu",
+
+"initial": "THL",
+
+"designation": "Lecturer",
+
+"phone": "1310568085",
+
+"email": "tousif.lavlu@smuct.ac.bd",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Saturday: 11.30 AM - 12.30 PM\nSunday: 11.30 AM - 12.30 PM",
+
+"officeRoom": "1803",
+
+"courses": ["CSE 1102 - I", "CSE 1102 - II", "CSE 1202 - I", "CSE 4252", "CSE 1201", "CSE 4251"]
+
+},
+
+{
+
+"id": 10,
+
+"name": "Sakhor Das Opi",
+
+"initial": "SDO",
+
+"designation": "Lecturer",
+
+"phone": "1722113113",
+
+"email": "sakhor@smuct.ac.bd",
+
+"weekend": "Friday",
+
+"homeOffice": "Saturday",
+
+"consultationHour": "Wednesday: 12:00 PM-13:00 PM\nTuesday: 12:00 PM-13:00 PM",
+
+"officeRoom": "1803",
+
+"courses": ["CSE 1210 - I", "CSE 1210 - II", "CSE 2110", "CSE 2202 - I", "CSE 2202 - II"]
+
+},
+
+{
+
+"id": 11,
+
+"name": "Md. Naim",
+
+"initial": "MN",
+
+"designation": "Lecturer",
+
+"phone": "1521722803",
+
+"email": "naim@smuct.ac.bd",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Sunday: 11:30 AM - 12:30 PM\nWednesday: 10.00 AM - 11.30 AM",
+
+"officeRoom": "1502",
+
+"courses": ["PHY 1001", "EEE 2104", "PHY 1002 - II", "PHY 1002 - I", "EEE 2104-II", "IoT Com"]
+
+},
+
+{
+
+"id": 12,
+
+"name": "Abdur Rab Dhruba",
+
+"initial": "ARD",
+
+"designation": "Lecturer",
+
+"phone": "1795486598",
+
+"email": "dhruba@smuct.ac.bd",
+
+"weekend": "Friday",
+
+"homeOffice": "Saturday",
+
+"consultationHour": "Sunday: 8:30 AM - 10:00 AM",
+
+"officeRoom": "1803",
+
+"courses": ["CSE 2103", "CSE 4233", "CSE 3311"]
+
+},
+
+{
+
+"id": 13,
+
+"name": "Md. Abdullah Ibn Noor",
+
+"initial": "AIN",
+
+"designation": "Lecturer",
+
+"phone": "1794200699",
+
+"email": "abdullah.pust04@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Saturday",
+
+"consultationHour": "Sunday : 11:30 AM - 12:30 PM\nTuesday : 11:30 AM - 12:30 PM",
+
+"officeRoom": "1502",
+
+"courses": []
+
+},
+
+{
+
+"id": 14,
+
+"name": "Ekhfa Hossain",
+
+"initial": "EKH",
+
+"designation": "Lecturer",
+
+"phone": "1947116249",
+
+"email": "ekhfahossain@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Saturday: 10.00AM - 11.30 AM\nSunday: 10.00AM - 11.30 AM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 3314 - I", "CSE 3314 - II", "CSE 3297", "CSE 2102"]
+
+},
+
+{
+
+"id": 15,
+
+"name": "Shafayatun Nur",
+
+"initial": "SN",
+
+"designation": "Lecturer",
+
+"phone": "1828050389",
+
+"email": "shafayatunnur@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Saturday: 10.00AM - 11.00 AM\nTuesdays: 11.30AM - 12.30 PM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 3209", "CSE 2103", "CSE 2209", "CSE 3107", "CSE 1100"]
+
+},
+
+{
+
+"id": 16,
+
+"name": "Saeema Rahim",
+
+"initial": "SAR",
+
+"designation": "Lecturer",
+
+"phone": "1789473422",
+
+"email": "saeemarahim0@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Saturday",
+
+"consultationHour": "Monday: 10.00 AM -11.00 AM",
+
+"officeRoom": "1502",
+
+"courses": ["PHY 1002 - I", "PHY 1002 - II", "PHY 1001", "CSE 3104 - I", "CSE 3104 - II"]
+
+},
+
+{
+
+"id": 17,
+
+"name": "Md. Fazle Hasan Mihad",
+
+"initial": "FHM",
+
+"designation": "Lecturer",
+
+"phone": "1709844763",
+
+"email": "mdfazlehasanmihad@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Saturday",
+
+"consultationHour": "Sunday: 11.00 AM - 12.00 PM\nMonday: 12.00 PM-1.00 PM",
+
+"officeRoom": "1602",
+
+"courses": ["CSE 3316", "CSE 3297", "CSE 3202 - I", "CSE 1202 - II"]
+
+},
+
+{
+
+"id": 18,
+
+"name": "Tauhid",
+
+"initial": "TD",
+
+"designation": "Lecturer",
+
+"phone": "1324213251",
+
+"email": "tauhidislam.ict@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Saturday",
+
+"consultationHour": "Monday: 2:30 AM - 3:30 PM\nTuesdays:11.30 AM - 12.30 PM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 3101", "CSE 3105", "CSE 3207", "CSE 3315", "CSE 3106 - I", "CSE 3106 - II"]
+
+},
+
+{
+
+"id": 19,
+
+"name": "Shad Al Kaiser",
+
+"initial": "SAK",
+
+"designation": "Lecturer & Evening Coordinator",
+
+"phone": "1726860829",
+
+"email": "shad.kaiser000@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Tuesday",
+
+"consultationHour": "Saturday: 11.30 AM - 12:30 PM\nMonday: 2.30 PM - 3:30 PM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 2207", "CSE 2102", "CSE 3102 - II", "Soft Com", "CSE 4131 - I", "CSE 3210"]
+
+},
+
+{
+
+"id": 20,
+
+"name": "Tahsin Alam",
+
+"initial": "TA",
+
+"designation": "Lecturer",
+
+"phone": "1776196881",
+
+"email": "tahsin029@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Saturday: 1:30 PM to 2:50 PM\nSunday: 1:30 PM to 2:50 PM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 1102 - I", "CSE 2101", "CSE 3204 - II", "CSE 1100", "CSE 3314 - II"]
+
+},
+
+{
+
+"id": 21,
+
+"name": "Md. Akram Hossain",
+
+"initial": "MAK",
+
+"designation": "Lecturer",
+
+"phone": "1848355390",
+
+"email": "akramhossain@smuct.ac.bd",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Monday :11:30 AM - 12:30 PM\nTuesdays:10.00 AM - 11.30 AM",
+
+"officeRoom": "1502",
+
+"courses": []
+
+},
+
+{
+
+"id": 22,
+
+"name": "Jannatul Ferdos Jui",
+
+"initial": "JFJ",
+
+"designation": "Lecturer",
+
+"phone": "1516009099",
+
+"email": "jannatul.190105@s.pust.ac.bd",
+
+"weekend": "Friday",
+
+"homeOffice": "Saturday",
+
+"consultationHour": "Tuesday: 2:30 PM - 3:30 PM\nWednesday: 12:00 PM - 01:00 PM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 2101", "CSE 3313", "CSE 2102 - I", "CSE 2102 - II", "CSE 3204"]
+
+},
+
+{
+
+"id": 23,
+
+"name": "Prof. Dr. Rabiul Islam",
+
+"initial": "DRI",
+
+"designation": "",
+
+"phone": "",
+
+"email": "rabiul_cse@cse.ruet.ac.bd",
+
+"weekend": "",
+
+"homeOffice": "",
+
+"consultationHour": "",
+
+"officeRoom": "",
+
+"courses": ["ICT 4308", "CSE 3205", "CSE 3206"]
+
+},
+
+{
+
+"id": 24,
+
+"name": "Habibur Rahman",
+
+"initial": "HR",
+
+"designation": "Part Time",
+
+"phone": "1712480827",
+
+"email": "mhabibur2017@gmail.com",
+
+"weekend": "",
+
+"homeOffice": "",
+
+"consultationHour": "Sunday: 2:00 PM - 5:00 PM\nTuesday: 2:00 PM - 5:00 PM",
+
+"officeRoom": "1502",
+
+"courses": ["MAT 2105", "MAT 1203"]
+
+},
+
+{
+
+"id": 25,
+
+"name": "Md Mehedi Hasan",
+
+"initial": "MMH",
+
+"designation": "Lecturer",
+
+"phone": "1732796789",
+
+"email": "mehedii2912@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Saturday: 11:30 AM - 12:50 PM\nWednesday: 10:00 AM - 11:20 AM",
+
+"officeRoom": "1602",
+
+"courses": ["CSE 3100 - I", "CSE 2208 - I", "CSE 4115", "CSE 2208 - II", "CSE 3100 - II", "CSE 4116 - I", "CSE 4116 - II", "ML Com"]
+
+},
+
+{
+
+"id": 26,
+
+"name": "Shamima Dilshad Salshabil",
+
+"initial": "SDS",
+
+"designation": "Lecturer",
+
+"phone": "1708527062",
+
+"email": "samirah.dilshad.salsabil@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Tuesday: 11:30 AM - 12:30 AM\nMonday: 11:30 AM - 12:30 AM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 4112", "CSE 2110 - II", "CSE 2110 - I"]
+
+},
+
+{
+
+"id": 27,
+
+"name": "Faria Afrin Niha",
+
+"initial": "FA",
+
+"designation": "Lecturer",
+
+"phone": "1626380979",
+
+"email": "fariacsejnu@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Saturday: 8:30 AM- 9:30 AM\nMonday: 11:30 AM - 12:30 PM",
+
+"officeRoom": "1502",
+
+"courses": ["CSE 2100 - I", "CSE 2100 - II", "CSE 3316"]
+
+},
+
+{
+
+"id": 28,
+
+"name": "Easrat Jahan",
+
+"initial": "EJ",
+
+"designation": "Lecturer",
+
+"phone": "1714276861",
+
+"email": "eashrat17@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Tuesday: 10:30 AM - 11:30 AM\nWednesday: 3:30 PM - 4:30 PM",
+
+"officeRoom": "1502",
+
+"courses": ["ICT 4106", "CSE 3200 - I", "CSE 1100", "CSE 2100 - II"]
+
+},
+
+{
+
+"id": 29,
+
+"name": "Md. Delwar Shahadat Deepu",
+
+"initial": "MDS",
+
+"designation": "Lecturer",
+
+"phone": "1938934819",
+
+"email": "mdsdeepu3@gmail.com",
+
+"weekend": "Friday",
+
+"homeOffice": "Thursday",
+
+"consultationHour": "Saturday: 10.00AM - 11.20 AM\nWednesday: 10.00AM - 11.20 AM",
+
+"officeRoom": "1602",
+
+"courses": ["CSE 3314 - I", "CSE 2110", "STA 3001", "CSE 3314 - II", "CSE 2339", "CSE 3313", "ML Com"]
+
+}
+
+]
+
+"
+
+json file consisting of all course information titled: "AllCourse.json"
+
+"
+
+{
+
+"1": {
+
+"CSE 1100": {
+
+"courseName": "Computer Fundamentals and Ethics",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"CSE 1101": {
+
+"courseName": "Structured Programming",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 1102": {
+
+"courseName": "Structured Programming Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"MAT 1101": {
+
+"courseName": "Calculus and Co-ordinate Geometry",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"ECS 1101": {
+
+"courseName": "English Communication Skills-I",
+
+"credit": 2,
+
+"faculty": ""
+
+},
+
+"ECA 1101": {
+
+"courseName": "Economics and Accounting",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"BDS 1001": {
+
+"courseName": "Bangladesh Studies",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"EEE 1101": {
+
+"courseName": "Electrical Circuits",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"EEE 1102": {
+
+"courseName": "Electrical Circuits Sessional",
+
+"credit": 0.75,
+
+"faculty": ""
+
+}
+
+},
+
+"2": {
+
+"CSE 1201": {
+
+"courseName": "Data Structure",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 1202": {
+
+"courseName": "Data Structure Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"PHY 1001": {
+
+"courseName": "Physics",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"PHY 1002": {
+
+"courseName": "Physics Sessional",
+
+"credit": 0.75,
+
+"faculty": ""
+
+},
+
+"CSE 1203": {
+
+"courseName": "Object Oriented Programming",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 1204": {
+
+"courseName": "Object Oriented Programming Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"MAT 1203": {
+
+"courseName": "Vector Analysis and Linear Algebra",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"ECS 1203": {
+
+"courseName": "English Communication Skills-II",
+
+"credit": 2,
+
+"faculty": ""
+
+},
+
+"CSE 1210": {
+
+"courseName": "Competitive Programming Sessional-I",
+
+"credit": 1.5,
+
+"faculty": ""
+
+}
+
+},
+
+"3": {
+
+"CSE 2100": {
+
+"courseName": "Software Development Project-I",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"CSE 2101": {
+
+"courseName": "Python Programming Language",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 2102": {
+
+"courseName": "Python Programming Language Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"BCC 2101": {
+
+"courseName": "Biology and Chemistry in Computation",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"EEE 2103": {
+
+"courseName": "Digital Logic Design",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"EEE 2104": {
+
+"courseName": "Digital Logic Design Sessional",
+
+"credit": 0.75,
+
+"faculty": ""
+
+},
+
+"CSE 2103": {
+
+"courseName": "Discrete Mathematics",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"MAT 2105": {
+
+"courseName": "Complex Variable, Differential Equation and Harmonic Analysis",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 2110": {
+
+"courseName": "Competitive Programming Sessional-II",
+
+"credit": 1.5,
+
+"faculty": ""
+
+}
+
+},
+
+"4": {
+
+"CSE 2200": {
+
+"courseName": "Web (Front End) Development Project",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"CSE 2201": {
+
+"courseName": "Design and Analysis of Algorithms",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 2202": {
+
+"courseName": "Design and Analysis of Algorithms Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"EEE 2205": {
+
+"courseName": "Electronic Drives and Circuits",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"EEE 2206": {
+
+"courseName": "Electronic Drives and Circuits Sessional",
+
+"credit": 0.75,
+
+"faculty": ""
+
+},
+
+"MAT 2207": {
+
+"courseName": "Numerical Methods",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"MAT 2208": {
+
+"courseName": "Numerical Methods Sessional",
+
+"credit": 0.75,
+
+"faculty": ""
+
+},
+
+"CSE 2207": {
+
+"courseName": "Database Management System",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 2208": {
+
+"courseName": "Database Management System Sessional",
+
+"credit": 0.75,
+
+"faculty": ""
+
+},
+
+"CSE 2209": {
+
+"courseName": "Artificial Intelligence",
+
+"credit": 3,
+
+"faculty": ""
+
+}
+
+},
+
+"5": {
+
+"CSE 3100": {
+
+"courseName": "Web (Back End) Development Project",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"CSE 3101": {
+
+"courseName": "Formal Languages and Compilers",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 3102": {
+
+"courseName": "Formal Languages and Compilers Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"STA 3001": {
+
+"courseName": "Statistics",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 3103": {
+
+"courseName": "Microprocessor, Microcontroller and Assembly Language",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 3104": {
+
+"courseName": "Microprocessor, Microcontroller and Assembly Language Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"CSE 3105": {
+
+"courseName": "Operating Systems",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 3106": {
+
+"courseName": "Operating Systems Sessional",
+
+"credit": 0.75,
+
+"faculty": ""
+
+},
+
+"CSE 3107": {
+
+"courseName": "Software Engineering",
+
+"credit": 3,
+
+"faculty": ""
+
+}
+
+},
+
+"6": {
+
+"CSE 3200": {
+
+"courseName": "Advanced Software/Hardware Development Project",
+
+"credit": 0.75,
+
+"faculty": ""
+
+},
+
+"CSE 3201": {
+
+"courseName": "Data Communication and Computer Networks",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 3202": {
+
+"courseName": "Data Communication and Computer Networks Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"CSE 3203": {
+
+"courseName": "Machine learning",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 3204": {
+
+"courseName": "Machine learning sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"CSE 3205": {
+
+"courseName": "Information System Analysis and Design",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 3206": {
+
+"courseName": "Information System Analysis and Design Sessional",
+
+"credit": 0.75,
+
+"faculty": ""
+
+},
+
+"CSE 3207": {
+
+"courseName": "Computer Architecture",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 3209": {
+
+"courseName": "Software Project Management",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 3210": {
+
+"courseName": "Mobile Application Development Lab",
+
+"credit": 0.75,
+
+"faculty": ""
+
+}
+
+},
+
+"7": {
+
+"CSE 4100": {
+
+"courseName": "Thesis or Project - I, Internship based (Phase I)",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 4101": {
+
+"courseName": "IT Service Management",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 4103": {
+
+"courseName": "Cybersecurity",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 4104": {
+
+"courseName": "Cybersecurity Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"CSE 4105": {
+
+"courseName": "Digital Signal and Image Processing",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"PPD 4001": {
+
+"courseName": "Personal and Professional Development",
+
+"credit": 2,
+
+"faculty": ""
+
+},
+
+"Elective-I": {
+
+"courseName": "Elective-I",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"Elective-I Sessional": {
+
+"courseName": "Elective-I Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+}
+
+},
+
+"8": {
+
+"CSE 4200": {
+
+"courseName": "Thesis or Project - II, Internship based (Phase II)",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 4201": {
+
+"courseName": "Cloud Computing Tools and Techniques",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"CSE 4202": {
+
+"courseName": "Cloud Computing Tools and Techniques Sessional",
+
+"credit": 0.75,
+
+"faculty": ""
+
+},
+
+"BUS 4001": {
+
+"courseName": "System and Business Strategy",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"Elective-II": {
+
+"courseName": "Elective-II",
+
+"credit": 3,
+
+"faculty": ""
+
+},
+
+"Elective-II Sessional": {
+
+"courseName": "Elective-II Sessional",
+
+"credit": 1.5,
+
+"faculty": ""
+
+},
+
+"CSE 4210": {
+
+"courseName": "Seminar/ Presentation",
+
+"credit": 0.75,
+
+"faculty": ""
+
+}
+
+}
+
+}
+
+"

@@ -1,0 +1,373 @@
+{
+  "1": {
+    "CSE 1100": {
+      "courseName": "Computer Fundamentals and Ethics",
+      "credit": 1.5,
+      "faculty": { "A": "SN", "B": "TA", "C": "EJ" }
+    },
+    "CSE 1101": {
+      "courseName": "Structured Programming",
+      "credit": 3,
+      "faculty": { "A": "SHB", "B": "ANM" }
+    },
+    "CSE 1102": {
+      "courseName": "Structured Programming Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "ANM", "B": "THL", "C": "TA" }
+    },
+    "MAT 1101": {
+      "courseName": "Calculus and Co-ordinate Geometry",
+      "credit": 3,
+      "faculty": { "A": "ABM" }
+    },
+    "ECS 1101": {
+      "courseName": "English Communication Skills-I",
+      "credit": 2,
+      "faculty": { "A": "TBA" }
+    },
+    "ECA 1101": {
+      "courseName": "Economics and Accounting",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "BDS 1001": {
+      "courseName": "Bangladesh Studies",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "EEE 1101": {
+      "courseName": "Electrical Circuits",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "EEE 1102": {
+      "courseName": "Electrical Circuits Sessional",
+      "credit": 0.75,
+      "faculty": { "A": "TBA" }
+    }
+  },
+  "2": {
+    "CSE 1201": {
+      "courseName": "Data Structure",
+      "credit": 3,
+      "faculty": { "A": "THL" }
+    },
+    "CSE 1202": {
+      "courseName": "Data Structure Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "THL", "B": "FHM" }
+    },
+    "PHY 1001": {
+      "courseName": "Physics",
+      "credit": 3,
+      "faculty": { "A": "MN", "B": "SAR" }
+    },
+    "PHY 1002": {
+      "courseName": "Physics Sessional",
+      "credit": 0.75,
+      "faculty": { "A": "MN", "B": "SAR" }
+    },
+    "CSE 1203": {
+      "courseName": "Object Oriented Programming",
+      "credit": 3,
+      "faculty": { "A": "FI" }
+    },
+    "CSE 1204": {
+      "courseName": "Object Oriented Programming Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "FI" }
+    },
+    "MAT 1203": {
+      "courseName": "Vector Analysis and Linear Algebra",
+      "credit": 3,
+      "faculty": { "A": "HR" }
+    },
+    "ECS 1203": {
+      "courseName": "English Communication Skills-II",
+      "credit": 2,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 1210": {
+      "courseName": "Competitive Programming Sessional-I",
+      "credit": 1.5,
+      "faculty": { "A": "SDO" }
+    }
+  },
+  "3": {
+    "CSE 2100": {
+      "courseName": "Software Development Project-I",
+      "credit": 1.5,
+      "faculty": { "A": "ANM", "B": "FA", "C": "EJ" }
+    },
+    "CSE 2101": {
+      "courseName": "Python Programming Language",
+      "credit": 3,
+      "faculty": { "A": "TA", "B": "TA", "C": "JFJ" }
+    },
+    "CSE 2102": {
+      "courseName": "Python Programming Language Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "EKH", "B": "SAK", "C": "JFJ" }
+    },
+    "BCC 2101": {
+      "courseName": "Biology and Chemistry in Computation",
+      "credit": 3,
+      "faculty": { "A": "SHU", "B": "SHU", "C": "SHU" }
+    },
+    "EEE 2103": {
+      "courseName": "Digital Logic Design",
+      "credit": 3,
+      "faculty": { "A": "SR", "B": "SR", "C": "SR" }
+    },
+    "EEE 2104": {
+      "courseName": "Digital Logic Design Sessional",
+      "credit": 0.75,
+      "faculty": { "A": "MN", "B": "MN", "C": "SR"}
+    },
+    "CSE 2103": {
+      "courseName": "Discrete Mathematics",
+      "credit": 3,
+      "faculty": { "A": "ARD", "B": "SN" }
+    },
+    "MAT 2105": {
+      "courseName": "Complex Variable, Differential Equation and Harmonic Analysis",
+      "credit": 3,
+      "faculty": { "A": "HR" }
+    },
+    "CSE 2110": {
+      "courseName": "Competitive Programming Sessional-II",
+      "credit": 1.5,
+      "faculty": { "A": "SDO", "B": "SDS", "C": "MDS" }
+    }
+  },
+  "4": {
+    "CSE 2200": {
+      "courseName": "Web (Front End) Development Project",
+      "credit": 1.5,
+      "faculty": { "A": "AIN" }
+    },
+    "CSE 2201": {
+      "courseName": "Design and Analysis of Algorithms",
+      "credit": 3,
+      "faculty": { "A": "SHB" }
+    },
+    "CSE 2202": {
+      "courseName": "Design and Analysis of Algorithms Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "SDO" }
+    },
+    "EEE 2205": {
+      "courseName": "Electronic Drives and Circuits",
+      "credit": 3,
+      "faculty": { "A": "SR" }
+    },
+    "EEE 2206": {
+      "courseName": "Electronic Drives and Circuits Sessional",
+      "credit": 0.75,
+      "faculty": { "A": "SR" }
+    },
+    "MAT 2207": {
+      "courseName": "Numerical Methods",
+      "credit": 3,
+      "faculty": { "A": "ABM" }
+    },
+    "MAT 2208": {
+      "courseName": "Numerical Methods Sessional",
+      "credit": 0.75,
+      "faculty": { "A": "ABM" }
+    },
+    "CSE 2207": {
+      "courseName": "Database Management System",
+      "credit": 3,
+      "faculty": { "A": "SAK" }
+    },
+    "CSE 2208": {
+      "courseName": "Database Management System Sessional",
+      "credit": 0.75,
+      "faculty": { "A": "MMH" }
+    },
+    "CSE 2209": {
+      "courseName": "Artificial Intelligence",
+      "credit": 3,
+      "faculty": { "A": "SN" }
+    }
+  },
+  "5": {
+    "CSE 3100": {
+      "courseName": "Web (Back End) Development Project",
+      "credit": 1.5,
+      "faculty": { "A": "MMH" }
+    },
+    "CSE 3101": {
+      "courseName": "Formal Languages and Compilers",
+      "credit": 3,
+      "faculty": { "A": "TD" }
+    },
+    "CSE 3102": {
+      "courseName": "Formal Languages and Compilers Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "MTZ", "B": "SAK" }
+    },
+    "STA 3001": {
+      "courseName": "Statistics",
+      "credit": 3,
+      "faculty": { "A": "MDS" }
+    },
+    "CSE 3103": {
+      "courseName": "Microprocessor, Microcontroller and Assembly Language",
+      "credit": 3,
+      "faculty": { "A": "MOH" }
+    },
+    "CSE 3104": {
+      "courseName": "Microprocessor, Microcontroller and Assembly Language Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "SAR" }
+    },
+    "CSE 3105": {
+      "courseName": "Operating Systems",
+      "credit": 3,
+      "faculty": { "A": "TD" }
+    },
+    "CSE 3106": {
+      "courseName": "Operating Systems Sessional",
+      "credit": 0.75,
+      "faculty": { "A": "TD" }
+    },
+    "CSE 3107": {
+      "courseName": "Software Engineering",
+      "credit": 3,
+      "faculty": { "A": "SN" }
+    }
+  },
+  "6": {
+    "CSE 3200": {
+      "courseName": "Advanced Software/Hardware Development Project",
+      "credit": 0.75,
+      "faculty": { "A": "EJ" }
+    },
+    "CSE 3201": {
+      "courseName": "Data Communication and Computer Networks",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 3202": {
+      "courseName": "Data Communication and Computer Networks Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "FHM" }
+    },
+    "CSE 3203": {
+      "courseName": "Machine learning",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 3204": {
+      "courseName": "Machine learning sessional",
+      "credit": 1.5,
+      "faculty": { "A": "TA", "B": "JFJ" }
+    },
+    "CSE 3205": {
+      "courseName": "Information System Analysis and Design",
+      "credit": 3,
+      "faculty": { "A": "DRI" }
+    },
+    "CSE 3206": {
+      "courseName": "Information System Analysis and Design Sessional",
+      "credit": 0.75,
+      "faculty": { "A": "DRI" }
+    },
+    "CSE 3207": {
+      "courseName": "Computer Architecture",
+      "credit": 3,
+      "faculty": { "A": "TD" }
+    },
+    "CSE 3209": {
+      "courseName": "Software Project Management",
+      "credit": 3,
+      "faculty": { "A": "SN" }
+    },
+    "CSE 3210": {
+      "courseName": "Mobile Application Development Lab",
+      "credit": 0.75,
+      "faculty": { "A": "SAK" }
+    }
+  },
+  "7": {
+    "CSE 4100": {
+      "courseName": "Thesis or Project - I, Internship based (Phase I)",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 4101": {
+      "courseName": "IT Service Management",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 4103": {
+      "courseName": "Cybersecurity",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 4104": {
+      "courseName": "Cybersecurity Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 4105": {
+      "courseName": "Digital Signal and Image Processing",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "PPD 4001": {
+      "courseName": "Personal and Professional Development",
+      "credit": 2,
+      "faculty": { "A": "TBA" }
+    },
+    "Elective-I": {
+      "courseName": "Elective-I",
+      "credit": 3,
+      "faculty": { "A": "SDS (CSE 4112)", "B": "MMH (CSE 4115)", "C": "EJ (ICT 4106)", "D": "SAK (CSE 4131)" }
+    },
+    "Elective-I Sessional": {
+      "courseName": "Elective-I Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "MMH (CSE 4116)" }
+    }
+  },
+  "8": {
+    "CSE 4200": {
+      "courseName": "Thesis or Project - II, Internship based (Phase II)",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 4201": {
+      "courseName": "Cloud Computing Tools and Techniques",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 4202": {
+      "courseName": "Cloud Computing Tools and Techniques Sessional",
+      "credit": 0.75,
+      "faculty": { "A": "TBA" }
+    },
+    "BUS 4001": {
+      "courseName": "System and Business Strategy",
+      "credit": 3,
+      "faculty": { "A": "TBA" }
+    },
+    "Elective-II": {
+      "courseName": "Elective-II",
+      "credit": 3,
+      "faculty": { "A": "THL (CSE 4252)", "B": "ARD (CSE 4233)", "C": "DRI (ICT 4308)" }
+    },
+    "Elective-II Sessional": {
+      "courseName": "Elective-II Sessional",
+      "credit": 1.5,
+      "faculty": { "A": "TBA" }
+    },
+    "CSE 4210": {
+      "courseName": "Seminar/ Presentation",
+      "credit": 0.75,
+      "faculty": { "A": "TBA" }
+    }
+  }
+}

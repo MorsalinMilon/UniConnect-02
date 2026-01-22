@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/../pictures/UniConnect_favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header id="nav">
+        <div id="logoBox">
+            <img id="logo" src="/../pictures/UniConnect_logo.png" alt="UniConnect_Logo">
+        </div>
+        <div id="navBox">
+            <a id="onboard" href="#" id="dashboardLink">Dashboard</a>
+            
+            <a class="option" href="#" data-target="assignment">Assignment & Announcement</a>
+            <a class="option" href="#" data-target="payment">Payment & Due</a>
+            <a class="option" href="#" data-target="registered">Registered Courses</a>
+            <a class="option" href="#" data-target="attendence">Attendence</a>
+            <a class="option" href="#" data-target="lecture">Lecture Note</a>
+            <a class="option" href="#" data-target="result">Result</a>
+            <a class="option" href="#" data-target="faculty">Faculty Information</a>
+            <a class="option" href="#" data-target="admit">Admit Card</a>
+            <a class="option" href="#" data-target="class">Class Details</a>
+        </div>
+    </header>
+
+    <div id="student">
+        <span id="welcome">Welcome <span id="studentName">Loading...</span></span>
+    </div>
+
+    <div id="buttonSection">
+        <button class="button" data-target="assignment">Assignment & Announcement</button>
+        <button class="button" data-target="payment">Payment & Due</button>
+        <button class="button" data-target="registered">Registered Courses</button>
+        <button class="button" data-target="attendence">Attendence</button>
+        <button class="button" data-target="lecture">Lecture Note</button>
+        <button class="button" data-target="result">Result</button>
+        <button class="button" data-target="faculty">Faculty Information</button>
+        <button class="button" data-target="admit">Admit Card</button>
+        <button class="button" data-target="class">Class Details</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniConnect Login</title>
+    <link rel="shortcut icon" href="../pictures/UniConnect_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="brand">
+            <img id="logo" src="../pictures/UniConnect_logo.png" alt="UniConnect Logo">
+            <span class="role-prompt">Choose your role:</span>
+        </div>
+        <div class="role-selector">
+            <button class="role-btn active">Student</button>
+            <button class="role-btn">Faculty</button>
+        </div>
+    </header>
+
+    <div class="main-container">
+        
+        <div class="image-section">
+            <img id="hero-image" src="../pictures/student.png" alt="Student Illustration">
+        </div>
+
+        <div class="form-section">
+            <form  id="loginForm">
+                <h2>Welcome Back</h2>
+                <p class="subtitle">Log in to access your student portal.</p>
+                
+                <div class="input-group">
+                    <label for="id">Student ID</label>
+                    <input type="text" id="id" name="id" placeholder="Ex: 22-12345-1" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <button type="submit" id="submit-btn">Log In</button>
+                <p id="output"> </p>
+                
+                <p class="footer-text">Don't have an account? <a href="../RegistrationPage/index.html">Registration</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

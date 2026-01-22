@@ -1,0 +1,126 @@
+:root {
+    --primary-blue: rgb(2, 68, 201);
+    --bg-color: rgb(240, 244, 248);
+    --text-dark: #333;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-dark);
+    overflow-x: hidden;
+}
+
+/* --- Navigation --- */
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#logoBox {
+    flex-shrink: 0;
+}
+
+#logo {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+#navBox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Links Styling */
+.option {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.option:hover, .option.active {
+    color: var(--primary-blue);
+    background-color: rgba(2, 68, 201, 0.05);
+}
+
+/* Active Page Styling */
+#onboard {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    display: inline-block;
+
+    color: var(--primary-blue);
+    background-color: rgba(2, 68, 201, 0.1);
+    font-weight: 600;
+}
+
+/* =========================================
+   RESPONSIVE MEDIA QUERIES
+   (Added these back in for mobile support)
+   ========================================= */
+
+/* Tablet View (Max Width: 768px) */
+@media (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    #navBox {
+        width: 100%;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .option, #onboard {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Mobile View (Max Width: 480px) */
+@media (max-width: 480px) {
+    #navBox {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: flex-start;
+        width: 100%;
+        padding-bottom: 5px;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; 
+    }
+    
+    #navBox::-webkit-scrollbar {
+        display: none; 
+    }
+}
