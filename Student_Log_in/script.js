@@ -8,7 +8,7 @@ form.addEventListener("submit", function(event) {
     const myPassword = document.getElementById("password").value.trim();
 
     // Fetch the JSON file containing student data
-    fetch('/../StudentInfo.json')
+    fetch('../StudentInfo.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error("Could not load student data.");
